@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+body{
+  background-image: linear-gradient(#BF953F, #FCF6BA);
+}
+/* Navbar */
+.nav-bg {
+  background-color: #1c1c1c;
+}
+.nav-text {
+  color: #FFD700;
+  font-family: 'Rubik Dirt', cursive;
+  font-size: 25px;
+  font-weight: 500;
+
+}
+.nav-text:hover{
+  color: #B4161B;
+}
+
+.head-title{
+  color: black;
+  font-family: 'Lobster', cursive;
+  font-size: 3.5em;
+  font-weight: 700;
+}
+.special-text{
+  color: #B4161B;
+}
+.head-para{
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.card-bg{
+  background-image: linear-gradient(#BF953F, #FCF6BA);
+}
+
+.title-card{
+  font-family: 'Lobster', cursive;
+  font-size: 30px;
+  font-weight: 500;
+}
+.slide-title{
+  color: #FFD700;
+  font-family: 'DynaPuff', cursive;
+  font-size: 2em;
+  font-weight: 700;
+}
+.slide-text{
+  color: #B4161B;
+  font-family: 'Bebas Neue', cursive;;
+  font-size: 2em;
+  font-weight: 600;
+}
+
+.social{
+  padding: 10px;
+  font-size: 50px;
+  font-weight: 700;
+}
