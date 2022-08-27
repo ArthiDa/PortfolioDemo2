@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
+    <link rel="shortcut icon" href="image/mypic.jpg" type="image/x-icon" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -19,17 +20,17 @@
       href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap"
       rel="stylesheet"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
-    />
+    <script
+      src="https://kit.fontawesome.com/c4d2113264.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <!-- Heading with Navbar -->
     <header>
-      <nav class="navbar navbar-expand-lg nav-bg" id="navbar">
-        <div class="container">
-          <a class="navbar-brand" href="#">
+      <nav class="navbar navbar-expand-lg nav-bg my-3" id="navbar">
+        <div class="container-fluid fixed-top nav-bg">
+          <a class="navbar-brand mx-lg-5" href="index.html">
             <img
               class="img-fluid"
               style="height: 50px"
@@ -54,7 +55,7 @@
           >
             <ul class="navbar-nav mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link nav-text" aria-current="page" href="index.html"
+                <a class="nav-link nav-text" aria-current="page" href="#top"
                   >Home</a
                 >
               </li>
@@ -87,7 +88,7 @@
       </nav>
     </header>
 
-    <main>
+    <main class="my-5">
       <!-- Top Main Section  -->
       <section class="container my-5" id="top">
         <div class="row">
@@ -98,10 +99,11 @@
               </h1>
               <h3>I'm a Mini Web Developer</h3>
               <p class="head-para">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Suscipit laudantium porro sit aliquam itaque? Vero explicabo
-                dolorem rem provident eligendi hic facilis, mollitia aspernatur
-                doloremque illo alias iure possimus minima.
+                I am Pranab Barua Arthi. I am a student of CSE in IIUC. I am
+                doing a web development course and learning web development
+                slowly. I completed Html,CSS and Bootstrap. I made this
+                portfolio using html,css and bootstrap. My next goal is to learn
+                JavaScript and React <i class="fa-solid fa-hand-peace"></i>.
               </p>
             </div>
           </div>
@@ -128,29 +130,22 @@
               <div class="card-body">
                 <h5 class="card-title title-card">Competitive Programming</h5>
                 <p class="card-text">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non
-                  consequuntur quia sunt nemo cumque illum excepturi nostrum
-                  nobis. Voluptatem illum necessitatibus tenetur ipsam
-                  repellendus fugiat iste tempora nobis veritatis
-                  exercitationem.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card h-100 card-bg shadow bg-body rounded">
-              <img
-                src="image/db1.webp"
-                class="card-img-top rounded-2 img-fluid"
-                alt="..."
-              />
-              <div class="card-body">
-                <h5 class="card-title title-card">Web Development</h5>
-                <p class="card-text">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. A
-                  similique quae quidem dolorem. Veniam aut labore hic odio
-                  ipsam repellat quia doloribus, magni necessitatibus maiores?
-                  Illum sint sapiente fugiat alias.
+                  I am a Competitive Programmer. I love to do coding. Whenever I
+                  get time, I try to solve coding problems. I solved 800+
+                  problems on different platforms. I am doing regular contests
+                  on
+                  <a
+                    target="_blank"
+                    href="https://codeforces.com/profile/Arthi73"
+                    >Codeforces</a
+                  >
+                  and
+                  <a
+                    target="_blank"
+                    href="https://www.codechef.com/users/arthida"
+                    >Codechef</a
+                  >. I have also participated in many onsite campus programming
+                  contests. Recently I registered in ICPC online preliminary.
                 </p>
               </div>
             </div>
@@ -163,11 +158,40 @@
                 alt="..."
               />
               <div class="card-body">
+                <h5 class="card-title title-card">Web Development</h5>
+                <p class="card-text">
+                  I am a mini Web Developer. I am doing a web development course
+                  and learning web development slowly. I completed Html,CSS and
+                  Bootstrap. I already completed a PHP-based eCommerce project.
+                  The
+                  <a target="_blank" href="http://aatshop.epizy.com/"
+                    >Project</a
+                  >
+                  is available on my
+                  <a target="_blank" href="https://github.com/ArthiDa/Ecom"
+                    >Github</a
+                  >.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 card-bg shadow bg-body rounded">
+              <img
+                src="image/db1.webp"
+                class="card-img-top rounded-2 img-fluid"
+                alt="..."
+              />
+              <div class="card-body">
                 <h5 class="card-title title-card">Database Management</h5>
                 <p class="card-text">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This card has even longer
-                  content than the first to show that equal height action.
+                  I completed a few projects related to databases. One of the
+                  projects is an eCommerce website using a huge database. The
+                  project takes 15 days to complete. The Project is available on
+                  my
+                  <a target="_blank" href="https://github.com/ArthiDa/Ecom"
+                    >Github</a
+                  >.
                 </p>
               </div>
             </div>
@@ -180,33 +204,57 @@
         <div class="row row-cols-1 row-cols-md-3 row-cols-lg-3 g-4">
           <div class="col">
             <div class="card h-100 card-bg shadow bg-body rounded">
-              <img src="image/c++.png" class="card-img-top h-auto" alt="..." />
+              <img
+                src="image/c++.png"
+                class="card-img-top img-fluid"
+                alt="..."
+              />
               <div class="card-body">
                 <h5 class="card-title title-card">C/C++</h5>
                 <p class="card-text">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
+                  I use c/c++ on a regular basis. Actually, I always prefer
+                  c/c++ for competitive programming. I know almost everything
+                  about c/c++ programming.
                 </p>
               </div>
               <div class="card-footer">
-                <small class="text-muted">Last updated 3 mins ago</small>
+                <div class="d-flex justify-content-lg-center">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <!-- <i class="fa-solid fa-star-half-stroke"></i> -->
+                </div>
               </div>
             </div>
           </div>
           <div class="col">
             <div class="card h-100 card-bg shadow bg-body rounded">
-              <img src="image/java.png" class="card-img-top h-auto" alt="..." />
+              <img
+                src="image/java.png"
+                class="card-img-top img-fluid"
+                alt="..."
+              />
               <div class="card-body">
                 <h5 class="card-title title-card">JAVA</h5>
                 <p class="card-text">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
+                  I know basic programming knowledge of Java. In the 3rd
+                  semester, I used java for software development. In fact, I was
+                  building desktop software using one of the java frameworks. My
+                  next goal for Java is to execute different algorithmic
+                  problems using java.
                 </p>
               </div>
               <div class="card-footer">
-                <small class="text-muted">Last updated 3 mins ago</small>
+                <div class="d-flex justify-content-lg-center">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <!-- <i class="fa-solid fa-star"></i> -->
+                  <i class="fa-solid fa-star-half-stroke"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
               </div>
             </div>
           </div>
@@ -216,13 +264,21 @@
               <div class="card-body">
                 <h5 class="card-title title-card">PYTHON</h5>
                 <p class="card-text">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
+                  I know basic programming knowledge of Python. I completed half
+                  course of python offered by google on Coursera. For Python, My
+                  goal is to fulfill the course.
                 </p>
               </div>
               <div class="card-footer">
-                <small class="text-muted">Last updated 3 mins ago</small>
+                <div class="d-flex justify-content-lg-center">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <!-- <i class="fa-solid fa-star"></i> -->
+                  <!-- <i class="fa-solid fa-star"></i> -->
+                  <i class="fa-solid fa-star-half-stroke"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
               </div>
             </div>
           </div>
@@ -232,13 +288,20 @@
               <div class="card-body">
                 <h5 class="card-title title-card">SQL</h5>
                 <p class="card-text">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
+                  I know the basics of SQL. I did a database project where I
+                  applied many SQL codes to retrieve my data from the database
+                  and show them on my site.
                 </p>
               </div>
               <div class="card-footer">
-                <small class="text-muted">Last updated 3 mins ago</small>
+                <div class="d-flex justify-content-lg-center">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <!-- <i class="fa-solid fa-star"></i> -->
+                  <i class="fa-solid fa-star-half-stroke"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
               </div>
             </div>
           </div>
@@ -248,13 +311,21 @@
               <div class="card-body">
                 <h5 class="card-title title-card">HTML-CSS</h5>
                 <p class="card-text">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
+                  I know the basics of Html-CSS. I have already completed many
+                  projects using only Html and CSS. For this portfolio, I used
+                  custom CSS in addition to Bootstrap. I can create any simple
+                  website using HTML-CSS.
                 </p>
               </div>
               <div class="card-footer">
-                <small class="text-muted">Last updated 3 mins ago</small>
+                <div class="d-flex justify-content-lg-center">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <!-- <i class="fa-solid fa-star"></i> -->
+                  <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
               </div>
             </div>
           </div>
@@ -264,13 +335,21 @@
               <div class="card-body">
                 <h5 class="card-title title-card">PHP</h5>
                 <p class="card-text">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
+                  I build a website where I used PHP for the backend. So I know
+                  how to use PHP and also know the necessity of PHP in backend
+                  coding.
                 </p>
               </div>
               <div class="card-footer">
-                <small class="text-muted">Last updated 3 mins ago</small>
+                <div class="d-flex justify-content-lg-center">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <!-- <i class="fa-solid fa-star"></i> -->
+                  <!-- <i class="fa-solid fa-star"></i> -->
+                  <i class="fa-solid fa-star-half-stroke"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
               </div>
             </div>
           </div>
@@ -437,11 +516,57 @@
                 <label for="floatingPassword">Password</label>
               </div>
               <div class="form-floating mb-3">
-                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                <textarea
+                  class="form-control"
+                  placeholder="Leave a comment here"
+                  id="floatingTextarea2"
+                  style="height: 100px"
+                ></textarea>
                 <label for="floatingTextarea2">Comments</label>
               </div>
               <div class="d-flex justify-content-end">
-                <button type="button" class="btn btn-warning title-card"><i class="fa-solid fa-paper-plane"></i> Send</button>
+                <button
+                  type="button"
+                  class="btn btn-warning title-card"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  <i class="fa-solid fa-paper-plane"></i>Send
+                </button>
+                <!-- Modal -->
+                <div
+                  class="modal fade"
+                  id="exampleModal"
+                  tabindex="-1"
+                  aria-labelledby="exampleModalLabel"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title title-card" id="exampleModalLabel">
+                          Thank You
+                        </h5>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <div class="modal-body fw-bold text-dark">Thank you for your lovely comments. Wish you the best of luck.</div>
+                      <div class="modal-footer">
+                        <button
+                          type="button"
+                          class="btn btn-secondary"
+                          data-bs-dismiss="modal"
+                        >
+                          OK
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -451,11 +576,25 @@
     <!-- Footer Area -->
     <footer class="nav-bg">
       <div class="d-flex justify-content-center">
-        <a class="social" href="#"><i class="fa-brands fa-facebook"></i></a>
-        <a class="social" href="#"><i class="fa-brands fa-instagram"></i></a>
-        <a class="social" href="#"><i class="fa-brands fa-github"></i></a>
+        <a
+          target="_blank"
+          class="social"
+          href="https://www.facebook.com/arthi.barua.54"
+          ><i class="fa-brands fa-facebook"></i
+        ></a>
+        <a
+          target="_blank"
+          class="social"
+          href="https://www.instagram.com/arthi_barua/"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+        <a target="_blank" class="social" href="https://github.com/ArthiDa"
+          ><i class="fa-brands fa-github"></i
+        ></a>
       </div>
-      <p style="color: #FFD700;" class="text-center my-0 py-1">Copyright  2022, Delivered by Pranab Barua Arthi, All Rights Reserved</p>
+      <p style="color: #ffd700" class="text-center my-0 py-1">
+        Copyright 2022, Delivered by Pranab Barua Arthi, All Rights Reserved
+      </p>
     </footer>
     <script src="css/bootstrap.bundle.min.js"></script>
   </body>

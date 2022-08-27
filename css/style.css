@@ -31,7 +31,7 @@ body{
 }
 .head-para{
   font-size: 20px;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .card-bg{
@@ -60,4 +60,14 @@ body{
   padding: 10px;
   font-size: 50px;
   font-weight: 700;
+}
+
+a{
+  text-decoration: none;
+}
+.fa-star{
+  color: blue;
+}
+.fa-star-half-stroke{
+  color: blue;
 }
